@@ -14,4 +14,8 @@ class.getMethod() -> 클래스의 메서드 정보를 가져온다.
 <br>
 class.getName() -> 클래스의 이름을 가져온다. 
 <br>
-method.invoke()
+method.invoke(실제 인스턴스명) -> 실제 인스턴스 내의 메서드를 호출한다.
+<br>
+class.newInstance() -> 클래스 내에 디폴트 생성자가 있다면, 리플랙션 기술로 인스턴스 생성
+
+💡 리플랙션 기술은 복잡하고 코드가 길어지기 때문에 직접 사용되지는 않음
